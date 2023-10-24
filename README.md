@@ -128,7 +128,7 @@ python main.py --train False --model <model_type> --ckpt_path <checkpoint file p
 ```
 For example, if you download the VASNet checkpoint and place it inside the `dataset` folder, you can use the command as follows.
 ```
-python main.py --train False --model VASNet --ckpt_path dataset/vasnet_try1_152.tar.pth --tag vasnet_inference
+python main.py --train False --model VASNet --ckpt_path dataset/vasnet1_best_f1.pkl --tag vasnet_inference
 ```
 
 ## Train your summarization model on Mr.HiSum
