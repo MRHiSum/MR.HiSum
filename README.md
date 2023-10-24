@@ -62,7 +62,7 @@ In the first most viewed scene, noted as 1 in the video, as soon as Neo meets Ag
 
 1. Download the [YouTube-8M](https://research.google.com/youtube8m/) dataset and place it under your dataset path. For example, when your dataset path is `/data/dataset/`, place your `yt8m` folder under the dataset path.
 
-2. Download [mrsum.h5](https://drive.google.com/file/d/1LmasS9joHe2VqINO2ZXLFdAE5nPdngyO/view?usp=sharing) and [metadata.csv](https://drive.google.com/file/d/1GhUSEzPif5h2sUtHsSK9zn4qlEqeKcgY/view?usp=sharing) and place it under the `dataset` folder.
+2. Download [mr_hisum.h5](https://drive.google.com/file/d/1LmasS9joHe2VqINO2ZXLFdAE5nPdngyO/view?usp=sharing) and [metadata.csv](https://drive.google.com/file/d/1GhUSEzPif5h2sUtHsSK9zn4qlEqeKcgY/view?usp=sharing) and place it under the `dataset` folder.
 
 3. Create a virtual environment using the following command:
     ```
@@ -73,14 +73,14 @@ In the first most viewed scene, noted as 1 in the video, as soon as Neo meets Ag
 ----
 ## Complete Mr.HiSum Dataset
 
-You need four fields on your `mrsum.h5` to prepare.
+You need four fields on your `mr_hisum.h5` to prepare.
 
 1. `features`: Video frame features from the YouTube-8M dataset.
 2. `gtscore`: The Most replayed statistics normalized to a score of 0 to 1.
 3. `change_points`: Shot boundary information obtained using the  [Kernel Temporal Segmentation](https://github.com/TatsuyaShirakawa/KTS) algorithm.
 4. `gtsummary`: Ground truth summary obtained by solving the 0/1 knapsack algorithm on shots.
 
-We provide three fields, `gtscore`, `change_points`, and `gtsummary`, inside `mrsum.h5`. 
+We provide three fields, `gtscore`, `change_points`, and `gtsummary`, inside `mr_hisum.h5`. 
 
 After downloading the YouTube-8M dataset, you can add the `features` field using
 ```

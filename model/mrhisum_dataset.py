@@ -9,8 +9,8 @@ class MrHiSumDataset(Dataset):
 
     def __init__(self, mode):
         self.mode = mode
-        self.dataset = 'dataset/mrsum.h5'
-        self.split_file = 'dataset/mrsum_split.json'
+        self.dataset = 'dataset/mr_hisum.h5'
+        self.split_file = 'dataset/mr_hisum_split.json'
         
         self.video_data = h5py.File(self.dataset, 'r')
 
