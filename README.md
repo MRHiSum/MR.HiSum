@@ -62,7 +62,7 @@ In the first most viewed scene, noted as 1 in the video, as soon as Neo meets Ag
 
 1. Download the [YouTube-8M](https://research.google.com/youtube8m/) dataset and place it under your dataset path. For example, when your dataset path is `/data/dataset/`, place your `yt8m` folder under the dataset path.
 
-2. Download [mr_hisum.h5](https://drive.google.com/file/d/1LmasS9joHe2VqINO2ZXLFdAE5nPdngyO/view?usp=sharing) and [metadata.csv](https://drive.google.com/file/d/1GhUSEzPif5h2sUtHsSK9zn4qlEqeKcgY/view?usp=sharing) and place it under the `dataset` folder.
+2. Download [mr_hisum.h5](https://drive.google.com/file/d/1ahLq7h-VE410cVTsRl1Kwno4mIQeQdkr/view?usp=sharing) and [metadata.csv](https://drive.google.com/file/d/1GhUSEzPif5h2sUtHsSK9zn4qlEqeKcgY/view?usp=sharing) and place it under the `dataset` folder.
 
 3. Create a virtual environment using the following command:
     ```
@@ -116,9 +116,9 @@ You can train baseline models on Mr.HiSum from scratch using the following comma
   ```
 
 Furthermore, we provide trained checkpoints of each model for reproducibility.
-- [Download PGL-SUM checkpoint](https://drive.google.com/file/d/1NQ4UT-0iOBA8-GFvpGDoAgpYV8k8p2OF/view?usp=sharing)
-- [Download VASNet checkpoint](https://drive.google.com/file/d/1gyv6ZuD5zvKWUbcmlKZcN720fnw8a69d/view?usp=sharing)
-- [Download SL-module checkpoint](https://drive.google.com/file/d/1oUXYWAspFhjKYcWP9aN1DPYO0EUT0eh3/view?usp=sharing)
+- [Download PGL-SUM checkpoint](https://drive.google.com/file/d/1NUr6Az_T9qj1M2VUQLsjdiHdYnXjTs5N/view?usp=sharing)
+- [Download VASNet checkpoint](https://drive.google.com/file/d/1JfdkWGNP1Qa0TyHS9_3ehc8f0ytj2n4v/view?usp=sharing)
+- [Download SL-module checkpoint](https://drive.google.com/file/d/1He2qHec6Ie1rX_1tuwO_a7mxofR2rKY2/view?usp=sharing)
 
 <!-- ** We will further release more checkpoints once the paper is accepted. -->
 
