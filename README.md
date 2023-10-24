@@ -116,8 +116,8 @@ You can train baseline models on Mr.HiSum from scratch using the following comma
   ```
 
 Furthermore, we provide trained checkpoints of each model for reproducibility.
-- [Download PGL-SUM checkpoint](https://drive.google.com/file/d/1NUr6Az_T9qj1M2VUQLsjdiHdYnXjTs5N/view?usp=sharing)
-- [Download VASNet checkpoint](https://drive.google.com/file/d/1JfdkWGNP1Qa0TyHS9_3ehc8f0ytj2n4v/view?usp=sharing)
+- [Download PGL-SUM checkpoint](https://drive.google.com/file/d/1QhNjONrhHNOnah6JlTako-kBsZp6IPun/view?usp=sharing)
+- [Download VASNet checkpoint](https://drive.google.com/file/d/13PI39Osyw5rlH2dtlkzJtzDTw8MOb29G/view?usp=sharing)
 - [Download SL-module checkpoint](https://drive.google.com/file/d/1He2qHec6Ie1rX_1tuwO_a7mxofR2rKY2/view?usp=sharing)
 
 <!-- ** We will further release more checkpoints once the paper is accepted. -->
