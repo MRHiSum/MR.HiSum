@@ -1,6 +1,6 @@
 # Mr. HiSum: A Large-scale Dataset for Video Highlight Detection And Summarization
 
-Mr. HiSum is a large-scale video highlight detection and summarization dataset, which contains 31,892 videos selected from YouTube-8M dataset and reliable frame importance score labels aggregated from 50,000+ users per video.  
+[Mr. HiSum](https://proceedings.neurips.cc/paper_files/paper/2023/file/7f880e3a325b06e3601af1384a653038-Paper-Datasets_and_Benchmarks.pdf) is a large-scale video highlight detection and summarization dataset, which contains 31,892 videos selected from YouTube-8M dataset and reliable frame importance score labels aggregated from 50,000+ users per video.  
 
 <!-- <img src="images/most_replayed.jpeg" alt="Example of Most replayed" width="300" height="200"> -->
 
@@ -154,3 +154,16 @@ This code referred to [PGL-SUM](https://github.com/e-apostolidis/PGL-SUM), [VASN
 Our license of the code can be found in [LICENSE](LICENSE).
 
 ----
+
+## Citation
+
+If you find this work useful in your research, please consider citing our paper:
+
+```latex
+@article{sul2024mr,
+  title={Mr. HiSum: a large-scale dataset for video highlight detection and summarization},
+  author={Sul, Jinhwan and Han, Jihoon and Lee, Joonseok},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
